@@ -1,6 +1,6 @@
 import { useState } from "react";
-import icons from "../assets/icon/icons.png";
-import BookCard from "./BookCard";
+import kil from "../assets/icon/kil.png";
+import BookCard from "../components/BookCard.jsx";
 
 export default function BookForm() {
   const [open, setOpen] = useState(false);
@@ -51,7 +51,7 @@ export default function BookForm() {
               className=" flex justify-center items-center gap-2.5 h-[45px] w-[181px] font-[Mulish] text-white bg-[#6200EE] rounded"
             >
               {" "}
-              <img src={icons} alt="plus icon" /> Create a book
+              <img src={kil} alt="plus icon" /> Create a book
             </button>
           </div>
           <p className="flex text-lg text-white font-[Mulish] capitalize">
